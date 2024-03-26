@@ -1,0 +1,48 @@
+.details {
+  display: flex;
+  gap: $size-12;
+
+  &__picture {
+    img {
+      width: 680px;
+    }
+  }
+
+  &__info {
+    div {
+      display: flex;
+      flex-direction: column;
+      gap: $size-4;
+    }
+
+    p {
+      font-size: $size-3;
+    }
+
+    h1 {
+      font-size: $size-8;
+      font-weight: 700;
+    }
+
+    h2 {
+      font-size: $size-19;
+      margin: $size-12 0;
+      font-weight: 500;
+    }
+  }
+}
+
+.details-description {
+  display: flex;
+  flex-direction: column;
+  gap: $size-12;
+
+  h3 {
+    font-size: $size-10;
+  }
+
+  p {
+    color: $text-3;
+  }
+}
+

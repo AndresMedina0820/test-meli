@@ -1,0 +1,8 @@
+.breadcrumb {
+  margin: $size-4 0;
+  color: $text-3;
+  ul {
+    display: flex;
+    gap: $size-1
+  }
+}

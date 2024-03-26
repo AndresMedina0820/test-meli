@@ -1,0 +1,12 @@
+{
+  "scripts": {
+    "start": "concurrently \"npm run build-client\" \"npm run start-client\" \"npm run build-server\" \"npm run start-server\"",
+    "build-client": "cd ./client && npm run build",
+    "start-client": "cd ./client && npm run preview",
+    "build-server": "cd ./server && npm run tsc",
+    "start-server": "cd ./server && npm run start"
+  },
+  "devDependencies": {
+    "concurrently": "^8.2.2"
+  }
+}

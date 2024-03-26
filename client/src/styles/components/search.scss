@@ -1,0 +1,13 @@
+.search {
+  display: flex;
+  gap: $size-4;
+
+  &__brand {
+    cursor: pointer;
+  }
+
+  &__input {
+    flex-grow: 1;
+  }
+}
+

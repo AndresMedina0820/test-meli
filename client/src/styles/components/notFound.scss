@@ -1,0 +1,11 @@
+.not-found {
+  padding: $size-12 0;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+
+  img {
+    width: $size-8;
+  }
+}

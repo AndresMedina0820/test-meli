@@ -1,0 +1,10 @@
+.box {
+  background: #fff;
+  box-shadow: $shadow;
+  border-radius: $size-1;
+  min-height: $size-24;
+
+  &__content {
+    margin-top: $size-2;
+  }
+}

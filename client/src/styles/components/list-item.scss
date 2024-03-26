@@ -1,0 +1,34 @@
+.list-item {
+  display: flex;
+
+  &__picture {
+    width: 180px;
+    height: 180px;
+    border: $size-1;
+    margin: $size-4;
+  }
+
+  &__info {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: $size-12;
+
+    h2 {
+      font-size: $size-8;
+      font-weight: 500;
+    }
+
+    &-icon {
+      width: $size-4;
+      height: $size-4;
+      margin-left: $size-2;
+    }
+
+    h1 {
+      font-size: $size-5;
+      font-weight: 500;
+    }
+
+  }
+}
