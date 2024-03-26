@@ -36,4 +36,4 @@ Ejecutar
 
 **Client:** React, Typescript, Sass
 
-**Server:** Node, Express
+**Server:** Node 18v, Express
